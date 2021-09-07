@@ -16,5 +16,7 @@ jobs:
       - name: Set up Docker Buildx
         id: buildx
         uses: docker/setup-buildx-action@v1
+        with:
+          install: true
       - name: Run the private action
         uses: ./
