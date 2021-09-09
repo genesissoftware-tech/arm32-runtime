@@ -1,2 +1,3 @@
-# arm32-runtime
-Docker image allows run arm32 application
+# arm32-runtime-action
+
+with buildx
